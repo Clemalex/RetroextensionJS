@@ -3,9 +3,14 @@
 "version":"1.0",
 "description":"Zozor vous souhaite bien le bonjour",
 "manifest_version": 2,
+"permissions" : [
+	"http://*/*",
+	"https://*/*"
+	],
 "browser_action":
 	{
 		"default_icon": "icone.png",
-		"popup":"dire_bonjour.html"
+		"default_popup":"dire_bonjour.html"
 	}
+
 }
