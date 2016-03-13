@@ -1,0 +1,11 @@
+{
+"name":"Zozor, donne la patte !",
+"version":"1.0",
+"description":"Zozor vous souhaite bien le bonjour",
+"manifest_version": 2,
+"browser_action":
+	{
+		"default_icon": "icone.png",
+		"popup":"dire_bonjour.html"
+	}
+}
